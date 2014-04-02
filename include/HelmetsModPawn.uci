@@ -1,0 +1,4 @@
+defaultproperties
+{
+	CustomizationClass=class'HelmetsModCustomization'
+}

@@ -1,0 +1,10 @@
+//This is just here to make a reference to class'HelmetsModCustomizationContent' to force it to load
+//
+//The alternative would be a properly-positioned DynamicLoadObject, which is what Chivalry does,
+//but Chivalry's CustomizationContent package is in a different package, so it *has* to do that.
+var HelmetsModCustomizationContent CustomizationBaseDummy;
+
+defaultproperties
+{
+	CustomizationClass=class'HelmetsModCustomization'
+}
